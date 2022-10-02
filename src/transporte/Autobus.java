@@ -8,6 +8,14 @@ package transporte;
  *
  * @author Matias
  */
-public class Autobus {
+public class Autobus extends Transporte{
+    public int pasajero;
     
+    public Autobus(){
+        
+    }
+    
+    public Autobus (int pasajero){
+        this.pasajero = pasajero;
+    }
 }
