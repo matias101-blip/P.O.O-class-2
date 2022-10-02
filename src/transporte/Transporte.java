@@ -9,5 +9,15 @@ package transporte;
  * @author Matias
  */
 public class Transporte {
+    public String marca;
+    public int anio;
     
+    public Transporte(){
+        
+    }
+    
+    public Transporte(String marca, int anio){
+        this.marca = marca;
+        this.anio = anio;
+    }
 }

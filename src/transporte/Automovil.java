@@ -8,6 +8,14 @@ package transporte;
  *
  * @author Matias
  */
-public class Automovil {
+public class Automovil extends Transporte {
+    public String color;
     
+    public Automovil(){
+        
+    }
+    
+    public Automovil (String color){
+        this.color = color;
+    }
 }
